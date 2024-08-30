@@ -7,3 +7,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.my-container{
+
+    width: 100%;
+    background-color: aquamarine;
+    padding: 50px;
+
+}
+
+.container-list{
+
+    width: 80%;
+    margin:0 auto;
+
+}
+.done{
+
+    text-decoration: line-through;
+}

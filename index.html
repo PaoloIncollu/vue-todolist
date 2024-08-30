@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template html css java script</title>
+        <title>Vue To Do List</title>
 
         <!--Bootstrap Css-->
 
@@ -20,22 +20,34 @@
     </head>
 
     <body>
+        <div id="app" class="my-container">
+
         
-        <header>
+            <header>
 
 
-        </header>
+            </header>
 
-        <main>
+            <main>
 
+                <div class="container-list">
 
-        </main>
+                    <ul class="list-group">
 
-        <footer>
+                        <li v-for="(product,index) in list" class="list-group-item" :class="product.done == true ? 'done' : ''">{{product.text}}</li>
+                    
+                    </ul>
 
-            
-        </footer>
+                </div>
+                
 
+            </main>
+
+            <footer>
+
+                
+            </footer>
+        </div>
         <!--Java-->
 
         <script type="text/javascript" src="js/scripts.js"></script>
