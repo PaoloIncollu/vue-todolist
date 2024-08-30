@@ -10,18 +10,20 @@
 
 .my-container{
 
-    width: 100%;
+    width: 80%;
     background-color: aquamarine;
     padding: 50px;
+    margin: 50px auto;
 
 }
 
 .container-list{
 
-    width: 80%;
-    margin:0 auto;
+    width: 100%;
+    margin:40px auto;
 
 }
+
 .done{
 
     text-decoration: line-through;
