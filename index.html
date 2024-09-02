@@ -50,7 +50,8 @@
 
                         <li v-for="(product,index) in list" class="list-group-item d-flex justify-content-between align-items-center" >
                             
-                            <p :class="product.done == true ? 'done' : '' ">
+                            <p :class="product.done == true ? 'done' : '' "
+                            @click="handleProduct(index)">
 
                                 {{product.text}}
 

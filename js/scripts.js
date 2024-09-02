@@ -53,5 +53,13 @@ createApp({
           this.newProduct = '';
 
         }
-      }}
+      },
+
+      //funzione per invertire il valore di done
+      handleProduct(i){
+
+        this.list[i].done = !this.list[i].done;
+
+      }
+    }
 }).mount('#app')
